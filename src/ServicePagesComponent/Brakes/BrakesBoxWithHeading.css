@@ -1,17 +1,17 @@
 /* Services.css */
-.Computerservices-container {
+.BrakesBox-container {
     background-color: #111111;
     padding: 40px 20px;
     margin-bottom: 10px;
   }
-  .Computerservice-title{
+  .BrakesBox-title{
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
     width: 85%;
     margin: 0 auto;
   }
-  .Computerservices-header {
+  .BrakesBox-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@
     color: #FFFFFF;
   }
   
-  .Computerservices-header h2 {
+  .BrakesBox-header h2 {
     font-size: 2rem;
     color: #ffffff;
     text-align: left;
@@ -32,7 +32,7 @@
     min-width: 300px;
   }
   
-  .Computerservices-header p {
+  .BrakesBox-header p {
     font-size: 1rem;
     color: #cccccc;
     text-align: right;
@@ -41,10 +41,10 @@
     min-width: 300px;
   }
   
-  .Computerservice-description{
+  .BrakesBox-description{
     color: #ffffffe8;
   }
-  .Computerservices-grid {
+  .BrakesBox-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -54,7 +54,7 @@
     background-color: transparent;
   }
   
-  .Computerservice-card {
+  .BrakesBox-card {
     background: #111; /* Fallback color */
     border-radius: 8px;
     width: 100%;
@@ -69,11 +69,11 @@
     background-size: cover;
   }
   
-  .Computerservice-card:hover {
+  .BrakesBox-card:hover {
     transform: translateY(-5px);
   }
   
-  .Computerservice-card .Computerservice-content {
+  .BrakesBox-card .BrakesBox-content {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -82,7 +82,7 @@
     z-index: 2;
   }
   
-  .Computerservice-card .Computerservice-content h3 {
+  .BrakesBox-card .BrakesBox-content h3 {
     font-size: 1.2rem;
     background-color: #C00104;
     color: #fff;
@@ -90,8 +90,7 @@
     width: 75%;
     padding: 2%;
   }
-  
-  .Computerservice-card .Computerservice-content p {
+  .BrakesBox-card .BrakesBox-content p {
     font-size: 0.9rem;
     color: #000000;
     background-color: #cccccc69;
@@ -100,51 +99,51 @@
   /* Responsive Design */
   
   @media screen and (max-width:992px) {
-    .Computerservice-title{
+    .BrakesBox-title{
       flex-direction: column;
     }
   }
   @media (max-width: 768px) {
-    .Computerservice-title{
+      .BrakesBox-title{
       padding: 0;
     }
-    .Computerservices-header {
+    .BrakesBox-header {
       flex-direction: column;
       text-align: center;
     }
   
-    .Computerservices-header h2,
-    .Computerservices-header p {
+    .BrakesBox-header h2,
+    .BrakesBox-header p {
       text-align: center;
       flex: unset;
       max-width: 100%;
     }
   
-    .Computerservices-grid {
+    .BrakesBox-grid {
       flex-direction: column;
       align-items: center;
     }
   
-    .Computerservice-card {
+    .BrakesBox-card {
       max-width: 90%;
     }
   }
   
   @media (max-width: 480px) {
   
-    .Computerservices-header h2 {
+    .BrakesBox-header h2 {
       font-size: 1.5rem;
     }
   
-    .Computerservices-header p {
+    .BrakesBox-header p {
       font-size: 0.9rem;
     }
   
-    .Computerservice-content h3 {
+    .BrakesBox-content h3 {
       font-size: 1rem;
     }
   
-    .Computerservice-content p {
+    .BrakesBox-content p {
       font-size: 0.85rem;
     }
   }

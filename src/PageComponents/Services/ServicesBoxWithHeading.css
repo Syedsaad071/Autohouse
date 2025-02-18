@@ -86,8 +86,9 @@
   background-color: #C00104;
   color: #fff;
   margin-bottom: 10px;
+  width: 75%;
+  padding: 2%;
 }
-
 .service-card .service-content p {
   font-size: 0.9rem;
   color: #000000;

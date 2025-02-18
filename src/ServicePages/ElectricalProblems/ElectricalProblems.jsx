@@ -1,4 +1,3 @@
-import React from 'react'
 import ElectricalHeader from '../../ServicePagesComponent/ElectricalProblems/ElectricalHeader'
 import Testimonials from '../../Components/Reviews/Testimonials';
 import CarLogos from '../../Components/CarLogos/CarLogos';
@@ -7,7 +6,9 @@ import ElectricalHouse from '../../ServicePagesComponent/ElectricalProblems/Elec
 import ElectricalBoxWithHeading from '../../ServicePagesComponent/ElectricalProblems/ElectricalBoxWithHeading';
 import ElectricalHeroSection from '../../ServicePagesComponent/ElectricalProblems/ElectricalHeroSection';
 
+
 const ElectricalProblems = () => {
+
   return (
     <>
     <ElectricalHeader/>
@@ -18,6 +19,7 @@ const ElectricalProblems = () => {
     <AboutUsSubscriptionBox/>
     <CarLogos/>
     </>
+
   )
 }
 

@@ -5,12 +5,14 @@ import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscrip
 import CarLogos from '../../Components/CarLogos/CarLogos';
 import BrakesHeroSection from '../../ServicePagesComponent/Brakes/BrakesHeroSection.jsx';
 import BrakesAutoHouseComponent from '../../ServicePagesComponent/Brakes/BrakesAutoHouseComponent.jsx';
+import BrakesBoxWithHeading from '../../ServicePagesComponent/Brakes/BrakesBoxWithHeading.jsx';
 
 const Brakes = () => {
   return (
   <>
   <BrakesHeader/>
   <BrakesHeroSection/>
+  <BrakesBoxWithHeading/>
   <BrakesAutoHouseComponent/>
   <Testimonials/>
   <AboutUsSubscriptionBox/>

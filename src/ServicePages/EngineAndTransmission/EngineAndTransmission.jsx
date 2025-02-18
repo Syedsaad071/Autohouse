@@ -6,12 +6,14 @@ import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscrip
 import CarLogos from '../../Components/CarLogos/CarLogos';
 import EngineAutoHouseComponent from '../../ServicePagesComponent/EngineAndTransmission/EngineAutoHouseComponent.jsx'
 import EngineServiceContent from '../../ServicePagesComponent/EngineAndTransmission/EngineServiceContent.jsx'
+import EngineBoxWithHeading from '../../ServicePagesComponent/EngineAndTransmission/EngineBoxWithHeading.jsx'
 
 const EngineAndTransmission = () => {
   return (
     <>
     <EngineHeader/>
     <EngineHeroSection/>
+    <EngineBoxWithHeading/>
     <EngineAutoHouseComponent/>
     <EngineServiceContent/>
     <Testimonials/>
